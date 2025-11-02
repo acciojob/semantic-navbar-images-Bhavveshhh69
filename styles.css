@@ -1,11 +1,39 @@
-#nav{
+/* Navbar styling */
+nav {
 	background-color: orange;
-	font-family:arial;
-	margin:20px;
-	padding:20px;
-}
-#Images{
-	text-align:center;
+	font-family: Arial, sans-serif;
+	padding: 15px;
+	margin-bottom: 20px;
 }
 
-/* Your CSS Code here. */
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* Heading styling */
+h2 {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+/* Image styling */
+img {
+	margin: 10px;
+	border-radius: 10px;
+	display: inline-block;
+}
